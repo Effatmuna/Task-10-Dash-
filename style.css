@@ -1,8 +1,9 @@
 :root {
     --primary: #64BABB;
-    --secondary: #767F7E;
+    --secondary: #434E4D;
     --header-background: #5DA5A4;
     --margin: 15px 20px;
+    
 }
 
 
@@ -126,20 +127,26 @@ body{
     font-weight: bold;
     font-size: 14px;
    
-   
 }
-.single-text-header a:nth-child(2){
+.single-text-header .new{
     background-color: #5DA5A4;
     color: white;
-    padding: 5px 10px 0px 10px;
+    padding: 3px 10px 0px 10px;
     border-radius: 20px;
+    font-size: 12px;
+    font-family: Arial;
+   
+    
      
 }
-.single-text-header a:nth-child(3){
+.single-text-header .feature{
     background-color:var(--secondary);
     color: white;
-    padding: 3px 20px 2px 20px;
+    padding: 3px 10px 2px 10px;
     border-radius: 20px;
+    font-size: 12px;
+    font-family: Arial;
+    
 }
 .single-text-footer span{
     margin-right: 15px;
